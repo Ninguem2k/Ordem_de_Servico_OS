@@ -1,0 +1,48 @@
+
+.Table {
+    width:100%;
+    margin:0 auto;
+    border:0;
+    box-shadow: 0 5px 30px darkgrey;
+    border-spacing: 0;
+}
+
+.Table thead th{
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    padding:5px 10px;
+}
+
+.Table tr td{
+    color:white;
+    padding:5px 10px;
+    /*text-align: center;*/
+    cursor: pointer; /**importante para não mostrar cursor de texto**/
+}
+
+
+/**Cores**/
+.Table tr:nth-child(odd){    
+    background-color: #407cd5;
+}
+
+/**Cor quando passar por cima**/
+.Table tr:hover td{
+    color: black;
+    background-color: #feffb7;
+}
+
+/**Cor quando selecionado**/
+.Table tr.selecionado  td{
+     color: black;
+    background-color: #aff7ff;
+}
+
+.Table tr.selecionadoAUX td{
+     color: black;
+    background-color: #aff7ff;
+}
+.table-overflow{
+     background-color: #174993;
+}
